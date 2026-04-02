@@ -135,23 +135,11 @@ print(f"Confidence: {np.max(pred)*100:.2f}%")
 ## Struktur Proyek
 
 ```
-rice-leaf-disease-mobilenetv3-eca/
+Klasifikasi-Penyakit-Daun-Padi-menggunakan-Arsitektur-MobileNetV3-ECA/
 │
 ├── Image_Classification_with_MobileNetV3_ECA_Architecture.ipynb
 ├── requirements.txt
 ├── README.md
-│
-├── Dataset-Final/
-│   ├── train/
-│   │   ├── healthy/
-│   │   ├── leaf_blast/
-│   │   └── ... (10 kelas)
-│   ├── val/
-│   └── test/
-│
-└── models/
-    ├── model_mobilenetv3small_eca.h5
-    └── model_mobilenetv3large_eca.h5
 ```
 
 ---
